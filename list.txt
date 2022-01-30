@@ -1,9 +1,8 @@
-[Adblock Plus 3.5]
 ! Title: Vetyt's Adblock Fixes
 ! Description: Vetyt's own Adblock rules to fix minor errors in bigger lists
 ! Homepage: https://github.com/Yhonay/AdblockFixes
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 !
 ! Remove fake download buttons e.g. on thepiratebay, important because CSP rules allowed it in Easylist and NoCoin Filter List
 ||torrindex.net/images/ads^$third-party,important
