@@ -2,12 +2,14 @@
 ! Description: Vetyt's own Adblock rules to fix minor errors in bigger lists
 ! Homepage: https://github.com/Yhonay/AdblockFixes
 ! Expires: 1 hour (update frequency)
-! Version: 9
+! Version: 10
 !
 ! Remove fake download buttons e.g. on thepiratebay, important because CSP rules allowed it in Easylist and NoCoin Filter List
 ||torrindex.net/images/ads^$third-party,important
 ! Disqus doesn't work on downdetector if Google Platform Tags (gpt) are blocked
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
 @@||securepubads.g.doubleclick.net/gpt^$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
+! GPT doesn't get loaded if adscript is blocked
+@@||cdn2.downdetector.com^*^adscript.js$domain=downdetector.*,third-party
 ! Auto consent to cookies on downdetector (for disqus). Especially important if cookie consent window is hidden and unclickable.
 allestoringen.*,xn--allestrungen-9ib.*,aussieoutages.com,canadianoutages.com,downdetector.*#%#document.cookie = "_evidon_consent_cookie=1; path=/;";
