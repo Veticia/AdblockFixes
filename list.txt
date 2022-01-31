@@ -9,3 +9,6 @@
 ! Disqus doesn't work on downdetector if Google Platform Tags (gpt) are blocked
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
 @@||securepubads.g.doubleclick.net/gpt^$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
+! misc filters
+##.third-col__advert3
+##.third-col__advert2b
