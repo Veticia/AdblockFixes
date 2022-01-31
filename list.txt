@@ -1,11 +1,11 @@
 ! Title: Vetyt's Adblock Fixes
 ! Description: Vetyt's own Adblock rules to fix minor errors in bigger lists
 ! Homepage: https://github.com/Yhonay/AdblockFixes
-! Expires: 1 hour (update frequency)
-! Version: 4
+! Expires: 
+! Version: 5
 !
 ! Remove fake download buttons e.g. on thepiratebay, important because CSP rules allowed it in Easylist and NoCoin Filter List
 ||torrindex.net/images/ads^$third-party,important
 ! Disqus doesn't work on downdetector if Google Platform Tags (gpt) are blocked
-@@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|aussieoutages.com|downdetector.com.au|canadianoutages.com|downdetctor.ca|downdetctor.cl|downdetector.ae|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.br|downdetector.com|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.web.tr,third-party
-@@||securepubads.g.doubleclick.net/gpt^$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|aussieoutages.com|downdetector.com.au|canadianoutages.com|downdetctor.ca|downdetctor.cl|downdetector.ae|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.br|downdetector.com|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.web.tr,third-party
+@@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
+@@||securepubads.g.doubleclick.net/gpt^$domain=allestoringen.*|xn--allestrungen-9ib.*|aussieoutages.com|canadianoutages.com|downdetector.*,third-party
